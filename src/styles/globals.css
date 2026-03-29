@@ -1,0 +1,74 @@
+@import url('https://fonts.googleapis.com/css2?family=Archivo+Black&family=Inter:wght@400;700;900&family=Space+Grotesk:wght@700&display=swap');
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  --raw-onyx: #0D0D0D;
+  --raw-bone: #F2F2F2;
+  --raw-cyan: #00F0FF;
+  --raw-red: #FF3E3E;
+}
+
+* {
+  cursor: crosshair; /* Vibe técnica/brutalista */
+  -webkit-tap-highlight-color: transparent;
+}
+
+body {
+  background-color: var(--raw-onyx);
+  color: var(--raw-bone);
+  font-family: 'Inter', sans-serif;
+  margin: 0;
+  padding: 0;
+  overflow-x: hidden;
+  -webkit-font-smoothing: antialiased;
+}
+
+h1, h2, h3, .font-archivo {
+  font-family: 'Archivo Black', sans-serif;
+  text-transform: uppercase;
+}
+
+/* Animação de Glitch Suave para o Logo */
+.animate-pulse-slow {
+  animation: pulse-slow 4s cubic-bezier(0.4, 0, 0.6, 1) infinite;
+}
+
+@keyframes pulse-slow {
+  0%, 100% { opacity: 1; filter: brightness(1); }
+  50% { opacity: 0.8; filter: brightness(1.5) drop-shadow(0 0 10px var(--raw-cyan)); }
+}
+
+.perspective-1000 {
+  perspective: 1000px;
+}
+
+/* Estilo para Scrollbars (RAW style) */
+::-webkit-scrollbar {
+  width: 4px;
+}
+::-webkit-scrollbar-track {
+  background: var(--raw-onyx);
+}
+::-webkit-scrollbar-thumb {
+  background: var(--raw-cyan);
+}
+
+/* Ajustes para Mobile (iPhone 11/14 Safe Areas) */
+@supports (padding: env(safe-area-inset-top)) {
+  .App {
+    padding-top: env(safe-area-inset-top);
+    padding-bottom: env(safe-area-inset-bottom);
+  }
+}
+
+/* Card Swipe Look */
+.card-shadow-cyan {
+  shadow: 15px 15px 0px 0px var(--raw-cyan);
+}
+
+.card-shadow-red {
+  shadow: 15px 15px 0px 0px var(--raw-red);
+}
