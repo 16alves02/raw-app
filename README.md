@@ -92,6 +92,9 @@ src/
 ## 📸 Screenshots
 
 <img width="1518" height="953" alt="image" src="https://github.com/user-attachments/assets/8f03dae9-b490-47c4-9b87-2f45da106682" />
+<img width="1197" height="931" alt="image" src="https://github.com/user-attachments/assets/1b2e591e-9d85-4f51-b198-cc5f4050a1ae" />
+<img width="575" height="772" alt="image" src="https://github.com/user-attachments/assets/d6012803-c0bf-48b8-9195-9b75e55f458f" />
+
 
 
 -----
