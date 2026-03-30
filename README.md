@@ -91,7 +91,8 @@ src/
 
 ## 📸 Screenshots
 
-*(Adiciona aqui os teus screenshots conforme o padrão dos outros projetos)*
+<img width="1518" height="953" alt="image" src="https://github.com/user-attachments/assets/8f03dae9-b490-47c4-9b87-2f45da106682" />
+
 
 -----
 
