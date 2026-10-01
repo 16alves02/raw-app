@@ -97,7 +97,6 @@ The settings area includes:
 
 - Interface animation toggle
 - Language selection
-- Content preference controls present in the application
 - A built-in project story section
 - Link to the source repository
 
@@ -109,7 +108,7 @@ Language options currently exposed by the interface include:
 - French
 - German
 
-Application settings are persisted locally with `localStorage`.
+Application settings are persisted locally with `localStorage`. The current settings interface exposes language selection and animation controls.
 
 ## 🎨 Visual Identity
 
