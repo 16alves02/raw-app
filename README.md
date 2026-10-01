@@ -115,7 +115,7 @@ RAW. is part of the **16alves02** project portfolio and represents my experiment
 > Stay Real. Stay RAW.
 ## 📜 License & Copyright
 
-**Copyright (c) 2026 Leonardo Alves (16alves02). All rights reserved.**
+**Copyright (c) 2025-2026 Leonardo Alves (16alves02). All rights reserved.**
 
 This project is **not open source**. The source code is published for viewing and educational reference, but it may not be copied, redistributed, modified for public or commercial use, sublicensed, sold, or presented as someone else's work without prior written permission.
 
