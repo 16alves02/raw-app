@@ -25,6 +25,32 @@ The application is organised into three modes:
 
 **[Open the live experience](https://raw-app-bice.vercel.app)**
 
+## Screenshots
+
+### Home
+
+![RAW home screen](public/images/home.png)
+
+### The Deep End
+
+![The Deep End conversation cards](public/images/deepend.PNG)
+
+### Unfiltered
+
+![Unfiltered social games](public/images/unfiltered.PNG)
+
+### The Lab
+
+![The Lab experimental games](public/images/the%20lab.PNG)
+
+### Game card
+
+![RAW game card](public/images/card.PNG)
+
+### Settings
+
+![RAW settings](public/images/config.PNG)
+
 ### THE DEEP END
 
 Conversation decks cover a range of contexts, including Deep Questions, Night Talks, Intimate, Talking Stage, Couples, Soulmates, Long Distance, Family, At the Table and Dating. Deck content is stored in separate JSON files, keeping the content independent from the main interface.
